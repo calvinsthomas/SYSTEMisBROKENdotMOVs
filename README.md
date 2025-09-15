@@ -15,11 +15,22 @@ Please see the attached GH dot MOVs file(s) versioning embed url(s):
 
 'https://www.linkedin.com/feed/update/urn:li:activity:7373148812246425600/?originTrackingId=z189pbbzS5WhKSYx7GpXaQ%3D%3D'
 
+<img width="1351" height="313" alt="image" src="https://github.com/user-attachments/assets/bcd86892-f700-4a33-8883-cc8aa2cffa9f" />
+
+<img width="1351" height="313" alt="image" src="https://github.com/user-attachments/assets/71cefc19-183f-45b7-ba8e-011261b6554b" />
+
+
 Thank you!
 
 Warm Regards,
 Calvin Thomas
 """
+
+PROTECT MY MASTER API KEY NOW!!!! COMBSEC MAJOR CRITICAL SECURITY RISK TEST ON X.! freee.fun account on X handle!:
+
+'https://x.com/freeedotfun/status/1967532205451936220'
+
+ADDRESS LEAKED API KEY - MASTER ACCOUNT NOW AS SOLE OP.!
 
 """
 BLANK PDF's printed - X feed - OBS #2
