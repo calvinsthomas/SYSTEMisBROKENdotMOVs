@@ -4,6 +4,7 @@
 
 """
 Algorithmic Design Docs in Audio Form - Technical LT Docs for Compressing Margin Quant Bus.
+
 Hi Chungin,
 
 Please see the attached GH dot MOVs file(s) versioning embed url(s):
