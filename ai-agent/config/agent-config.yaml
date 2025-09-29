@@ -1,0 +1,45 @@
+# AI Agent Configuration
+# This file defines the behavior and settings for the AI agentic pull request system
+
+agent:
+  name: "AI-PR-Agent"
+  version: "1.0.0"
+  description: "AI-powered pull request automation agent"
+
+# GitHub integration settings
+github:
+  # Use environment variables for sensitive data
+  api_url: "https://api.github.com"
+  # Set GITHUB_TOKEN environment variable
+  token_env_var: "GITHUB_TOKEN"
+  
+# AI model settings
+ai_model:
+  provider: "anthropic"  # or "openai", "local"
+  model: "claude-3-sonnet"
+  max_tokens: 4000
+  temperature: 0.1
+
+# Pull request automation settings
+pull_request:
+  auto_create: true
+  auto_review: false  # Safety first
+  require_approval: true
+  template: "default"
+
+# Workflow triggers
+triggers:
+  - push_to_main
+  - schedule_daily
+  - manual
+
+# Security settings
+security:
+  scan_for_secrets: true
+  block_sensitive_files: true
+  require_signed_commits: false
+
+# Logging
+logging:
+  level: "INFO"
+  output: "logs/agent.log"

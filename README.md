@@ -1,4 +1,52 @@
 # SYSTEMisBROKENdotMOVs
+
+Technical documentation and AI automation system for repository management.
+
+## AI Agentic Pull Request System
+
+This repository now includes an **AI Agentic Pull Request System** that provides automated code analysis and pull request generation. 
+
+### Features
+
+- 🤖 **Automated Analysis**: AI-powered repository scanning for improvements
+- 🔒 **Security Scanning**: Detection of potential security issues and exposed secrets  
+- 📝 **Smart PR Generation**: Automated pull request creation with detailed analysis
+- ⚙️ **Configurable Workflows**: Flexible configuration for different use cases
+- 🛡️ **Security-First Design**: No hardcoded credentials, environment-based configuration
+
+### Quick Start
+
+1. **Configure the system**:
+   ```bash
+   export GITHUB_TOKEN=your_github_token
+   ```
+
+2. **Run the AI agent**:
+   ```bash
+   ./ai-agent/scripts/run-agent.sh
+   ```
+
+3. **Or use the Python implementation directly**:
+   ```bash
+   python3 ai-agent/scripts/agent.py ai-agent/config/agent-config.yaml
+   ```
+
+### Directory Structure
+
+```
+ai-agent/
+├── README.md           # Detailed documentation
+├── config/            # Configuration files
+├── templates/         # PR templates  
+├── workflows/         # Workflow definitions
+└── scripts/           # Automation scripts
+```
+
+See `ai-agent/README.md` for detailed documentation.
+
+---
+
+## Legacy Content
 'https://x.com/TestTempAI/status/1967391007894601976'
 
 
@@ -26,11 +74,15 @@ Warm Regards,
 Calvin Thomas
 """
 
-PROTECT MY MASTER API KEY NOW!!!! COMBSEC MAJOR CRITICAL SECURITY RISK TEST ON X.! freee.fun account on X handle!:
+## Security Notice
 
-'https://x.com/freeedotfun/status/1967532205451936220'
+⚠️ **Important Security Reminder**
+- Never commit API keys or secrets to version control
+- Use environment variables for sensitive configuration
+- Regularly rotate access tokens and credentials
+- Enable secret scanning on your repositories
 
-ADDRESS LEAKED API KEY - MASTER ACCOUNT NOW AS SOLE OP.!
+For secure credential management, see the AI Agent system in the `ai-agent/` directory.
 
 """
 BLANK PDF's printed - X feed - OBS #2
