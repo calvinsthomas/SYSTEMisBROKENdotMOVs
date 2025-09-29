@@ -386,3 +386,9 @@ Screenshot*API*
 Screenshot*KEY*
 Screenshot*PASSWORD*
 Screenshot*LOGIN*
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
