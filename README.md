@@ -1,6 +1,7 @@
 # SYSTEMisBROKENdotMOVs
 'https://x.com/TestTempAI/status/1967391007894601976'
 
+<img width="656" height="171" alt="image" src="https://github.com/user-attachments/assets/dd9bddd1-e6ce-4dd1-8aac-ce18e4cf2ad5" />
 
 """
 Algorithmic Design Docs in Audio Form - Technical LT Docs for Compressing Margin Quant Bus.
