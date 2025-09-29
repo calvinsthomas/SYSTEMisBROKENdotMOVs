@@ -26,6 +26,10 @@ Warm Regards,
 Calvin Thomas
 """
 
+v2 MY GUY
+@jimcramer
+@MadMoneyOnCNBC
+
 PROTECT MY MASTER API KEY NOW!!!! COMBSEC MAJOR CRITICAL SECURITY RISK TEST ON X.! freee.fun account on X handle!:
 
 'https://x.com/freeedotfun/status/1967532205451936220'
