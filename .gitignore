@@ -324,3 +324,65 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
+
+# ASTKR Security and Trading System Protection
+# NO SENSITIVE DATA SHOULD BE COMMITTED
+
+# API Keys and Credentials
+*.key
+*.pem
+*.p12
+*.keystore
+.env
+.env.*
+config/secrets.json
+config/api_keys.json
+**/credentials.json
+**/api_keys/**
+**/secrets/**
+
+# Trading Data and PnL Information
+**/trading_data/**
+**/pnl_data/**
+**/position_data/**
+**/risk_metrics/**
+*.trade
+*.pnl
+*.positions
+
+# Security Logs and Audit Trails
+**/logs/**
+*.log
+security_violations.json
+audit_trail.json
+access_log.txt
+
+# Personal and Sensitive Information
+**/personal/**
+**/sensitive/**
+*DELETE*/**
+BROKEN*/**
+*HIDDEN*/**
+
+# Financial Documents
+*.bank
+*.financial
+*.account
+*.portfolio
+
+# System and Device Information
+**/system_info/**
+**/device_data/**
+hostname.txt
+ip_addresses.txt
+
+# Temporary Security Files
+/tmp/astkr_*
+/tmp/security_*
+/tmp/audit_*
+
+# Screenshots containing sensitive information
+Screenshot*API*
+Screenshot*KEY*
+Screenshot*PASSWORD*
+Screenshot*LOGIN*

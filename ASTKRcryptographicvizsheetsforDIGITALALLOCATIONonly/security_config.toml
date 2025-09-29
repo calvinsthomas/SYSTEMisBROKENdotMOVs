@@ -1,0 +1,44 @@
+# STATARB Pre-liquidation Security Configuration
+# DO NOT EXPOSE API KEYS OR SENSITIVE DATA
+
+[security]
+# Device protection settings
+allow_unauthorized_access = false
+log_access_attempts = true
+require_authentication = true
+
+[crypto]
+# Cryptographic settings for visualization sheets
+encryption_algorithm = "AES-256-GCM"
+key_derivation = "PBKDF2"
+salt_length = 32
+
+[authorized_users]
+# Authorized personnel for ASTKR system
+users = [
+    "Crachilov",
+    "NickelDigital", 
+    "michaelhall",
+    "MichaelCorreale",
+    "ChaseBreitenba3",
+    "BurntCanvas",
+    "satyanadella"
+]
+
+[api_protection]
+# Master API key protection - NEVER COMMIT ACTUAL KEYS
+use_environment_variables = true
+rotate_keys_daily = true
+log_api_usage = true
+
+[trading]
+# STATARB pre-liquidation settings
+max_position_size = 1000000
+risk_threshold = 0.02
+enable_liquidation_alerts = true
+
+[audit]
+# Security audit trail
+log_file = "/secure/logs/astkr_audit.log"
+retention_days = 90
+alert_on_suspicious_activity = true
